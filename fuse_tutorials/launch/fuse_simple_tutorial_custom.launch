@@ -2,7 +2,7 @@
   <param name="/use_sim_time" value="true"/>
 
   <node name="state_estimator" pkg="fuse_optimizers" type="fixed_lag_smoother_node">
-    <rosparam command="load" file="$(find fuse_tutorials)/config/fuse_simple_tutorial.yaml"/>
+    <rosparam command="load" file="$(find fuse_tutorials)/config/fuse_simple_tutorial_custom.yaml"/>
   </node>
 
 
